@@ -28,6 +28,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# Modelos treinados pesados
-models/*.pkl
-models/*.joblib
+# Modelos muito grandes (acima de 100MB)
+# models/*.pkl
